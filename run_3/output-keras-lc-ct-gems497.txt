@@ -1,0 +1,337 @@
+CT scans with normal lung tissue: 25
+CT scans with abnormal lung tissue: 232
+abnormal scan processing
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000516.000000-NA-32832-patient-0034.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/102.000000-NA-91582-patient-0206.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000900.000000-NA-75170-patient-0061.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000524.000000-NA-53557-patient-0025.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000700.000000-NA-19196-patient-0116.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000719.000000-NA-45434-patient-0021.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000612.000000-NA-48666-patient-0064.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000572.000000-NA-36359-patient-0050.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3.000000-NA-55750-patient-0195.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000536.000000-NA-68085-patient-0065.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000548.000000-NA-86225-patient-0005.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000668.000000-NA-22488-patient-0145.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000701.000000-NA-44822-patient-0082.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000692.000000-NA-24156-patient-0139.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000555.000000-NA-81128-patient-0063.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000895.000000-NA-04898-patient-0057.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/5408.000000-NA-86657-patient-0151.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000715.000000-NA-61943-patient-0038.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3115.000000-NA-20243-patient-0106.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000905.000000-NA-16250-patient-0037.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000915.000000-NA-32229-patient-0039.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000976.000000-NA-47990-patient-0059.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/5508.000000-NA-62582-patient-0134.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000576.000000-NA-43183-patient-0030.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3236.000000-NA-37997-patient-0115.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000980.000000-NA-64282-patient-0043.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/4.000000-NA-97507-patient-0228.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000733.000000-NA-81782-patient-0080.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000554.000000-NA-82428-patient-0038.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000558.000000-NA-09430-patient-0062.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3001581.000000-NA-24643-patient-0074.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000628.000000-NA-26588-patient-0023.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000901.000000-NA-48817-patient-0014.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000579.000000-NA-20341-patient-0042.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000689.000000-NA-47209-patient-0133.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/4.000000-NA-60014-patient-0208.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000571.000000-NA-93273-patient-0044.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/30773.000000-NA-29296-patient-0302.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/2.000000-NA-85629-patient-0262.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000694.000000-NA-09852-patient-0131.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000916.000000-NA-26094-patient-0026.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000535.000000-NA-98069-patient-0056.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3002014.000000-NA-34671-patient-0053.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/1814.000000-NA-17972-patient-0216.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000907.000000-NA-06199-patient-0016.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000611.000000-NA-03264-patient-0003.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000983.000000-NA-05943-patient-0087.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000566.000000-NA-03192-patient-0001.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000624.000000-NA-03732-patient-0048.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000696.000000-NA-27171-patient-0152.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000776.000000-NA-23312-patient-0121.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000525.000000-NA-47372-patient-0020.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000709.000000-NA-50417-patient-0010.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3.000000-NA-92139-patient-0204.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000646.000000-NA-60532-patient-0083.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000930.000000-NA-17531-patient-0027.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3211.000000-NA-79503-patient-0084.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000640.000000-NA-85809-patient-0087.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3185.000000-NA-66614-patient-0150.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000564.000000-NA-48912-patient-0059.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000705.000000-NA-92959-patient-0111.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/4.000000-NA-46474-patient-0269.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000575.000000-NA-55115-patient-0060.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3001066.000000-NA-45726-patient-0019.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000523.000000-NA-06585-patient-0019.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000522.000000-NA-04919-patient-0002.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000704.000000-NA-44897-patient-0074.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/5596.000000-NA-86789-patient-0104.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000614.000000-NA-12456-patient-0027.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000658.000000-NA-28329-patient-0300.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000667.000000-NA-54720-patient-0070.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3221.000000-NA-29969-patient-0120.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3079.000000-NA-04249-patient-0069.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000573.000000-NA-12179-patient-0037.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000897.000000-NA-82201-patient-0004.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000549.000000-NA-21954-patient-0008.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000629.000000-NA-31276-patient-0043.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3001615.000000-NA-46975-patient-0067.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3001595.000000-NA-37316-patient-0052.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000981.000000-NA-87749-patient-0007.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3001587.000000-NA-88013-patient-0076.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000919.000000-NA-55999-patient-0033.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/100.000000-NA-47868-patient-0215.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000631.000000-NA-57680-patient-0007.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3001573.000000-NA-65662-patient-0096.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000615.000000-NA-59071-patient-0053.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3165.000000-NA-53824-patient-0078.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000534.000000-NA-58228-patient-0004.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/4.000000-NA-41371-patient-0284.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000625.000000-NA-20084-patient-0052.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000740.000000-NA-19144-patient-0128.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000559.000000-NA-23138-patient-0011.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000613.000000-NA-28428-patient-0017.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000924.000000-NA-86237-patient-0035.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000927.000000-NA-19268-patient-0015.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000738.000000-NA-35891-patient-0097.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000698.000000-NA-25932-patient-0073.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000706.000000-NA-80131-patient-0077.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000649.000000-NA-44726-patient-0081.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000991.000000-NA-60907-patient-0102.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000557.000000-NA-80114-patient-0024.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3001593.000000-NA-31398-patient-0046.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000519.000000-NA-40086-patient-0026.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/5591.000000-NA-44791-patient-0107.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000898.000000-NA-85946-patient-0029.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000645.000000-NA-19348-patient-0155.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/1613.000000-NA-96652-patient-0201.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3001614.000000-NA-81239-patient-0013.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000639.000000-NA-58130-patient-0126.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000648.000000-NA-68219-patient-0123.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000712.000000-NA-13937-patient-0056.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000921.000000-NA-18919-patient-0047.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000920.000000-NA-92391-patient-0018.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3001578.000000-NA-15293-patient-0082.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000902.000000-NA-97780-patient-0041.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/4.000000-NA-60431-patient-0227.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000926.000000-NA-62838-patient-0051.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3278.000000-NA-05159-patient-0079.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3210.000000-NA-19980-patient-0084.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/2.000000-NA-83452-patient-0295.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/2.000000-NA-09778-patient-0218.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/4.000000-NA-59845-patient-0229.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3001580.000000-NA-00978-patient-0144.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000938.000000-NA-36565-patient-0031.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000514.000000-NA-56951-patient-0057.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000713.000000-NA-42512-patient-0065.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000538.000000-NA-29210-patient-0009.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3001610.000000-NA-43354-patient-0036.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/4.000000-NA-56843-patient-0209.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000690.000000-NA-96643-patient-0109.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3001606.000000-NA-05167-patient-0097.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000978.000000-NA-59882-patient-0003.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3001608.000000-NA-25501-patient-0092.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000517.000000-NA-01463-patient-0039.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/4.000000-NA-15280-patient-0241.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000560.000000-NA-47886-patient-0061.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000581.000000-NA-39150-patient-0055.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000710.000000-NA-36409-patient-0025.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000717.000000-NA-24621-patient-0062.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/4.000000-Recon 3-88650-patient-0072.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000996.000000-NA-09667-patient-0073.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/5597.000000-NA-08531-patient-0104.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/30088.000000-NA-39049-patient-0075.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3084.000000-NA-91206-patient-0117.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000545.000000-NA-94314-patient-0029.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000556.000000-NA-20957-patient-0006.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000563.000000-NA-52671-patient-0028.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3001592.000000-NA-27810-patient-0060.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000695.000000-NA-41492-patient-0122.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000972.000000-NA-22902-patient-0002.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000547.000000-NA-78950-patient-0045.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000551.000000-NA-80786-patient-0013.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000578.000000-NA-33640-patient-0040.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000582.000000-NA-98613-patient-0035.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/4.000000-NA-94671-patient-0263.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000644.000000-NA-11228-patient-0114.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000570.000000-NA-02868-patient-0021.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000670.000000-NA-70157-patient-0102.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/2.000000-NA-34236-patient-0291.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000019.000000-NA-39846-patient-0294.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000562.000000-NA-07402-patient-0014.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000669.000000-NA-59527-patient-0153.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/30089.000000-NA-43489-patient-0085.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000908.000000-NA-34320-patient-0055.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3001591.000000-NA-37639-patient-0008.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000737.000000-NA-58706-patient-0158.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000663.000000-NA-48288-patient-0298.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3001600.000000-NA-28325-patient-0083.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000708.000000-NA-21600-patient-0067.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000688.000000-NA-62069-patient-0093.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3001612.000000-NA-91452-patient-0022.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000655.000000-NA-53237-patient-0099.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/5.000000-NA-47975-patient-0216.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000580.000000-NA-73630-patient-0016.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000774.000000-NA-03667-patient-0092.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/4.000000-NA-00450-patient-0196.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000707.000000-NA-55268-patient-0089.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000989.000000-NA-84905-patient-0099.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000550.000000-NA-10592-patient-0018.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/30084.000000-NA-46659-patient-0085.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000521.000000-NA-18990-patient-0036.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3112.000000-NA-40121-patient-0154.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000561.000000-NA-57842-patient-0012.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000904.000000-NA-53260-patient-0050.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000568.000000-NA-87015-patient-0041.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3001613.000000-NA-05796-patient-0005.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000699.000000-NA-84679-patient-0108.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000546.000000-NA-83490-patient-0033.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000608.000000-NA-60568-patient-0031.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000518.000000-NA-66796-patient-0010.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000929.000000-NA-91923-patient-0017.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000697.000000-NA-12235-patient-0157.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000641.000000-NA-56733-patient-0112.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000992.000000-NA-48388-patient-0093.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000990.000000-NA-68993-patient-0070.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000537.000000-NA-91689-patient-0032.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000691.000000-NA-63327-patient-0113.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3001597.000000-NA-31510-patient-0058.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3001596.000000-NA-38713-patient-0048.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000610.000000-NA-28223-patient-0015.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000721.000000-NA-25669-patient-0040.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000914.000000-NA-23896-patient-0034.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000665.000000-NA-78952-patient-0105.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/4.000000-NA-58748-patient-0240.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000630.000000-NA-50076-patient-0022.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000577.000000-NA-66972-patient-0046.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000734.000000-NA-93071-patient-0076.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3001586.000000-NA-27315-patient-0080.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000626.000000-NA-00770-patient-0058.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000693.000000-NA-83845-patient-0096.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000653.000000-NA-67579-patient-0146.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3313.000000-NA-45208-patient-0147.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000627.000000-NA-75427-patient-0049.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000552.000000-NA-80992-patient-0047.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/4.000000-NA-11586-patient-0259.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/30083.000000-NA-95222-patient-0075.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/5595.000000-NA-18854-patient-0156.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/4.000000-Recon 3-02075-patient-0088.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000703.000000-NA-75826-patient-0144.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/4.000000-NA-22205-patient-0219.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000702.000000-NA-08261-patient-0125.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000565.000000-NA-60291-patient-0054.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/30796.000000-NA-05732-patient-0292.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000982.000000-NA-30443-patient-0126.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000918.000000-NA-21926-patient-0009.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/5518.000000-NA-74407-patient-0103.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/4.000000-NA-45994-patient-0201.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000899.000000-NA-16602-patient-0024.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000923.000000-NA-62357-patient-0001.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000720.000000-NA-12443-patient-0030.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000609.000000-NA-22907-patient-0051.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/3000974.000000-NA-44874-patient-0006.npy
+normal scan processing
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/021-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/(203) 0.000000-CT141836RCCT-p1b1  3.0  I30f  3  50 Ex-93830-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/(202) 0.000000-CT151221P1B1  3.0  B30f  50 Ex-98114-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/015-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/003-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/022-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/(103)0.000000-CT140006RespCT  3.0  B30f  50 Ex-17374-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/008-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/012-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/001-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/013-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/023-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/009-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/(102) 0.000000-CT114545RespCT  3.0  B30f  50 Ex-81163-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/007-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/(204) 0.000000-CT135949RespCT  3.0  B30f  50 Ex-76339-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/016-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/002-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/011-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/(101) NA-79262-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/005-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/020-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/004-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/(201) 0.000000-CT135227RespCT  3.0  B30f  50 Ex-15204-patient-ge497g00.npy
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/normal/(104) 0.000000-CT142749P1B1RCCT  3.0  B19f  50 Ex-27950-patient-ge497g00.npy
+Number of samples in train and validation are %d and %d.
+Model: "3dcnn"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_1 (InputLayer)        [(None, 256, 256, 64, 1   0         
+                             )]                                  
+                                                                 
+ conv3d (Conv3D)             (None, 254, 254, 62, 64   1792      
+                             )                                   
+                                                                 
+ max_pooling3d (MaxPooling3  (None, 127, 127, 31, 64   0         
+ D)                          )                                   
+                                                                 
+ batch_normalization (Batch  (None, 127, 127, 31, 64   256       
+ Normalization)              )                                   
+                                                                 
+ conv3d_1 (Conv3D)           (None, 125, 125, 29, 64   110656    
+                             )                                   
+                                                                 
+ max_pooling3d_1 (MaxPoolin  (None, 62, 62, 14, 64)    0         
+ g3D)                                                            
+                                                                 
+ batch_normalization_1 (Bat  (None, 62, 62, 14, 64)    256       
+ chNormalization)                                                
+                                                                 
+ conv3d_2 (Conv3D)           (None, 60, 60, 12, 128)   221312    
+                                                                 
+ max_pooling3d_2 (MaxPoolin  (None, 30, 30, 6, 128)    0         
+ g3D)                                                            
+                                                                 
+ batch_normalization_2 (Bat  (None, 30, 30, 6, 128)    512       
+ chNormalization)                                                
+                                                                 
+ conv3d_3 (Conv3D)           (None, 28, 28, 4, 256)    884992    
+                                                                 
+ max_pooling3d_3 (MaxPoolin  (None, 14, 14, 2, 256)    0         
+ g3D)                                                            
+                                                                 
+ batch_normalization_3 (Bat  (None, 14, 14, 2, 256)    1024      
+ chNormalization)                                                
+                                                                 
+ global_average_pooling3d (  (None, 256)               0         
+ GlobalAveragePooling3D)                                         
+                                                                 
+ dense (Dense)               (None, 512)               131584    
+                                                                 
+ dropout (Dropout)           (None, 512)               0         
+                                                                 
+ dense_1 (Dense)             (None, 1)                 513       
+                                                                 
+=================================================================
+Total params: 1352897 (5.16 MB)
+Trainable params: 1351873 (5.16 MB)
+Non-trainable params: 1024 (4.00 KB)
+_________________________________________________________________
+Epoch 1/10
+48/48 - 32s - loss: 0.6157 - acc: 0.7474 - val_loss: 0.5791 - val_acc: 1.0000 - 32s/epoch - 667ms/step
+Epoch 2/10
+48/48 - 18s - loss: 0.3667 - acc: 0.8421 - val_loss: 0.4371 - val_acc: 0.9444 - 18s/epoch - 373ms/step
+Epoch 3/10
+48/48 - 17s - loss: 0.3243 - acc: 0.8947 - val_loss: 1.2362 - val_acc: 0.0000e+00 - 17s/epoch - 345ms/step
+Epoch 4/10
+48/48 - 17s - loss: 0.3336 - acc: 0.8316 - val_loss: 2.1476 - val_acc: 0.0000e+00 - 17s/epoch - 345ms/step
+Epoch 5/10
+48/48 - 17s - loss: 0.2709 - acc: 0.9158 - val_loss: 0.5160 - val_acc: 0.8704 - 17s/epoch - 345ms/step
+Epoch 6/10
+48/48 - 17s - loss: 0.2613 - acc: 0.9158 - val_loss: 0.7637 - val_acc: 0.4074 - 17s/epoch - 346ms/step
+Epoch 7/10
+48/48 - 17s - loss: 0.2017 - acc: 0.9684 - val_loss: 0.5321 - val_acc: 0.7284 - 17s/epoch - 346ms/step
+Epoch 8/10
+48/48 - 18s - loss: 0.1768 - acc: 0.9368 - val_loss: 0.1266 - val_acc: 0.9321 - 18s/epoch - 380ms/step
+Epoch 9/10
+48/48 - 17s - loss: 0.2014 - acc: 0.9684 - val_loss: 0.1762 - val_acc: 0.9321 - 17s/epoch - 347ms/step
+Epoch 10/10
+48/48 - 17s - loss: 0.2173 - acc: 0.9474 - val_loss: 0.2778 - val_acc: 0.9012 - 17s/epoch - 347ms/step

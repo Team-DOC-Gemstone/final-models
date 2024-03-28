@@ -1,0 +1,83 @@
+CT scans with normal lung tissue: 25
+CT scans with abnormal lung tissue: 232
+abnormal scan processing
+normal scan processing
+Number of samples in train and validation are %d and %d.
+Dimension of the CT scan is: (128, 128, 64, 1)
+Model: "3dcnn"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_1 (InputLayer)        [(None, 128, 128, 64, 1   0         
+                             )]                                  
+                                                                 
+ conv3d (Conv3D)             (None, 126, 126, 62, 64   1792      
+                             )                                   
+                                                                 
+ max_pooling3d (MaxPooling3  (None, 63, 63, 31, 64)    0         
+ D)                                                              
+                                                                 
+ batch_normalization (Batch  (None, 63, 63, 31, 64)    256       
+ Normalization)                                                  
+                                                                 
+ conv3d_1 (Conv3D)           (None, 61, 61, 29, 64)    110656    
+                                                                 
+ max_pooling3d_1 (MaxPoolin  (None, 30, 30, 14, 64)    0         
+ g3D)                                                            
+                                                                 
+ batch_normalization_1 (Bat  (None, 30, 30, 14, 64)    256       
+ chNormalization)                                                
+                                                                 
+ conv3d_2 (Conv3D)           (None, 28, 28, 12, 128)   221312    
+                                                                 
+ max_pooling3d_2 (MaxPoolin  (None, 14, 14, 6, 128)    0         
+ g3D)                                                            
+                                                                 
+ batch_normalization_2 (Bat  (None, 14, 14, 6, 128)    512       
+ chNormalization)                                                
+                                                                 
+ conv3d_3 (Conv3D)           (None, 12, 12, 4, 256)    884992    
+                                                                 
+ max_pooling3d_3 (MaxPoolin  (None, 6, 6, 2, 256)      0         
+ g3D)                                                            
+                                                                 
+ batch_normalization_3 (Bat  (None, 6, 6, 2, 256)      1024      
+ chNormalization)                                                
+                                                                 
+ global_average_pooling3d (  (None, 256)               0         
+ GlobalAveragePooling3D)                                         
+                                                                 
+ dense (Dense)               (None, 512)               131584    
+                                                                 
+ dropout (Dropout)           (None, 512)               0         
+                                                                 
+ dense_1 (Dense)             (None, 1)                 513       
+                                                                 
+=================================================================
+Total params: 1352897 (5.16 MB)
+Trainable params: 1351873 (5.16 MB)
+Non-trainable params: 1024 (4.00 KB)
+_________________________________________________________________
+Epoch 1/10
+48/48 - 29s - loss: 0.5473 - acc: 0.7158 - val_loss: 0.3843 - val_acc: 1.0000 - 29s/epoch - 600ms/step
+Epoch 2/10
+48/48 - 19s - loss: 0.4933 - acc: 0.7789 - val_loss: 0.7192 - val_acc: 0.2346 - 19s/epoch - 393ms/step
+Epoch 3/10
+48/48 - 19s - loss: 0.3219 - acc: 0.8737 - val_loss: 1.3102 - val_acc: 0.0000e+00 - 19s/epoch - 395ms/step
+Epoch 4/10
+48/48 - 19s - loss: 0.3248 - acc: 0.8632 - val_loss: 0.7208 - val_acc: 0.6296 - 19s/epoch - 394ms/step
+Epoch 5/10
+48/48 - 20s - loss: 0.3203 - acc: 0.8737 - val_loss: 0.3756 - val_acc: 0.9321 - 20s/epoch - 423ms/step
+Epoch 6/10
+48/48 - 19s - loss: 0.3083 - acc: 0.8737 - val_loss: 0.5651 - val_acc: 0.7222 - 19s/epoch - 393ms/step
+Epoch 7/10
+48/48 - 19s - loss: 0.2119 - acc: 0.9263 - val_loss: 4.1576 - val_acc: 0.0679 - 19s/epoch - 394ms/step
+Epoch 8/10
+48/48 - 20s - loss: 0.4003 - acc: 0.8737 - val_loss: 0.0729 - val_acc: 1.0000 - 20s/epoch - 426ms/step
+Epoch 9/10
+48/48 - 19s - loss: 0.2866 - acc: 0.8842 - val_loss: 0.8585 - val_acc: 0.4815 - 19s/epoch - 393ms/step
+Epoch 10/10
+48/48 - 20s - loss: 0.2502 - acc: 0.8842 - val_loss: 0.0023 - val_acc: 1.0000 - 20s/epoch - 422ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 64ms/step
+This model is %.2f percent confident that CT scan is %s
+This model is %.2f percent confident that CT scan is %s

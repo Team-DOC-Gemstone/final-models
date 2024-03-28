@@ -1,0 +1,4 @@
+Processing scan /fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous/4.000000-NA-00450-patient-0196.npy
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 1s 1s/step
+This model is 34.48 percent confident that CT scan is normal
+This model is 65.52 percent confident that CT scan is abnormal
