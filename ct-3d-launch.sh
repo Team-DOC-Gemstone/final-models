@@ -11,7 +11,7 @@
 #SBATCH --partition=class
 
 cd /fs/classhomes/spring2024/gems497/ge497000/keras-ct/final-model
-source /fs/classhomes/spring2024/gems497/ge497000/team-doc/bin/activate
+source /fs/class-projects/spring2024/gems497/ge497g00/team-doc-env/bin/activate
 module add cuda/11.8.0 cudnn/v8.8.0
 srun bash -c "python3 doc_3d_convnet.py" &
 wait
