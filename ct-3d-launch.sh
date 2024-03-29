@@ -4,7 +4,7 @@
 #SBATCH --output=output-keras-lc-ct-gems497.txt
 #SBATCH --error=err-keras-lc-ct-gems497.err
 #SBATCH --time=10:00:00
-#SBATCH --mem=24gb
+#SBATCH --mem=31gb
 #SBATCH --ntasks=1
 #SBATCH --gres=gpu:1
 #SBATCH --account=class

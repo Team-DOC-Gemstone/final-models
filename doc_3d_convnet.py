@@ -66,7 +66,6 @@ from scipy import ndimage
 normal_path = "/fs/class-projects/spring2024/gems497/ge497g00/normal"
 cancerous_path = "/fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous"
 
-
 abnormal_scans, abnormal_labels = get_abnormal()
 normal_scans, normal_labels = get_normal()
 
@@ -75,10 +74,8 @@ x_train = np.concatenate((abnormal_scans[:70], normal_scans[:70]), axis=0)
 y_train = np.concatenate((abnormal_labels[:70], normal_labels[:70]), axis=0)
 x_val = np.concatenate((abnormal_scans[70:], normal_scans[70:]), axis=0)
 y_val = np.concatenate((abnormal_labels[70:], normal_labels[70:]), axis=0)
-print(
-    "Number of samples in train and validation are %d and %d."
-#     % (x_train.shape[0], x_val.shape[0])
-)
+print("Number of samples in train and validation are %d and %d." % (x_train.shape[0], x_val.shape[0]))
+print(len(x_train), len(x_val), len(y_train), len(y_val))
 
 """## Data augmentation
 

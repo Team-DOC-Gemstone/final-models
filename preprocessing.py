@@ -13,12 +13,10 @@ def normalize(volume):
     return volume
 
 
-def resize_volume(img):
+def resize_volume(img, desired_width=256, desired_height=256):
     """Resize across z-axis"""
     # Set the desired depth
     desired_depth = 64
-    desired_width = 256
-    desired_height = 256
     # Get current depth
     current_depth = img.shape[-1]
     current_width = img.shape[0]
@@ -35,7 +33,7 @@ def resize_volume(img):
     return img
 
 
-def process_scan(path):
+def process_scan(path, dim=256):
     """Read and resize volume"""
     print("Processing scan " + str(path))
     # Read scan
@@ -43,18 +41,18 @@ def process_scan(path):
     # Normalize
     volume = normalize(volume)
     # Resize width, height and depth
-    volume = resize_volume(volume)
+    volume = resize_volume(volume, desired_height=dim, desired_width=dim)
     return volume
 
-def get_normal():
+def get_normal(dim=256):
     normal_path = "/fs/class-projects/spring2024/gems497/ge497g00/normal"
-    preprocessed_file_path = "/fs/class-projects/spring2024/gems497/ge497g00/normal_scans_preprocessed.npy"
-    preprocessed_labels = "/fs/class-projects/spring2024/gems497/ge497g00/normal_labels.npy"
+    preprocessed_file_path = "/fs/class-projects/spring2024/gems497/ge497g00/normal_scans_preprocessed_256.npy"
+    preprocessed_labels = "/fs/class-projects/spring2024/gems497/ge497g00/normal_labels_256.npy"
     if (os.path.isfile(preprocessed_file_path) and os.path.isfile(preprocessed_labels)):
         normal_scans = np.load(preprocessed_file_path)
         normal_labels = np.load(preprocessed_labels)
         return (normal_scans, normal_labels)
-    
+
     normal_scan_paths = [
         os.path.join(os.getcwd(), normal_path, x)
         for x in os.listdir(normal_path)
@@ -62,7 +60,7 @@ def get_normal():
 
     print("CT scans with normal lung tissue: " + str(len(normal_scan_paths)))
     print("normal scan processing")
-    normal_scans = np.array([process_scan(path) for path in normal_scan_paths])
+    normal_scans = np.array([process_scan(path, dim=dim) for path in normal_scan_paths])
     with open(preprocessed_file_path, 'wb') as f:
         np.save(f, normal_scans)
     normal_labels = np.array([0 for _ in range(len(normal_scans))])
@@ -70,14 +68,14 @@ def get_normal():
         np.save(s, normal_labels)
     return (normal_scans, normal_labels)
 
-def get_abnormal():
-    preprocessed_file_path = "/fs/class-projects/spring2024/gems497/ge497g00/abnormal_scans_preprocessed.npy"
-    preprocessed_labels = "/fs/class-projects/spring2024/gems497/ge497g00/abnormal_labels.npy"
-    if (os.path.isfile(preprocessed_file_path)):
+def get_abnormal(dim=256):
+    preprocessed_file_path = "/fs/class-projects/spring2024/gems497/ge497g00/abnormal_scans_preprocessed_256.npy"
+    preprocessed_labels = "/fs/class-projects/spring2024/gems497/ge497g00/abnormal_labels_256.npy"
+    if (os.path.isfile(preprocessed_file_path) and os.path.isfile(preprocessed_labels)):
         abnormal_scans = np.load(preprocessed_file_path)
         abnormal_labels = np.load(preprocessed_labels)
         return (abnormal_scans, abnormal_labels)
-    
+
     cancerous_path = "/fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous"
     abnormal_scan_paths = [
         os.path.join(os.getcwd(), cancerous_path, x)
@@ -85,7 +83,7 @@ def get_abnormal():
     ]
     print("CT scans with cancerous lung tissue: " + str(len(abnormal_scan_paths)))
     print("abnormal scans processing")
-    abnormal_scans = np.array([process_scan(path) for path in abnormal_scan_paths])
+    abnormal_scans = np.array([process_scan(path, dim=dim) for path in abnormal_scan_paths])
     with open(preprocessed_file_path, 'wb') as f:
         np.save(f, abnormal_scans)
     abnormal_labels = np.array([0 for _ in range(len(abnormal_scans))])
