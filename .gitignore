@@ -2,3 +2,7 @@
 __pycache__/
 *.png
 2d-cnn/*.keras
+*.err
+*-output.txt
+*-gems497.txt
+output-*
