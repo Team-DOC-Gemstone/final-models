@@ -31,7 +31,7 @@ import os
 import zipfile
 import numpy as np
 import tensorflow as tf  # for data preprocessing
-from preprocessing import get_normal, get_abnormal
+from preprocessing import process_scan
 import keras
 from keras import layers
 
@@ -66,16 +66,48 @@ from scipy import ndimage
 normal_path = "/fs/class-projects/spring2024/gems497/ge497g00/normal"
 cancerous_path = "/fs/class-projects/spring2024/gems497/ge497g00/usable-cancerous"
 
-abnormal_scans, abnormal_labels = get_abnormal()
-normal_scans, normal_labels = get_normal()
+
+"""Let's read the paths of the CT scans from the class directories."""
+normal_scan_paths = [
+    os.path.join(os.getcwd(), normal_path, x)
+    for x in os.listdir(normal_path)
+]
+
+abnormal_scan_paths = [
+    os.path.join(os.getcwd(), cancerous_path, x)
+    for x in os.listdir(cancerous_path)
+]
+
+print("CT scans with normal lung tissue: " + str(len(normal_scan_paths)))
+print("CT scans with abnormal lung tissue: " + str(len(abnormal_scan_paths)))
+
+"""## Build train and validation datasets
+Read the scans from the class directories and assign labels. Downsample the scans to have
+shape of 128x128x64. Rescale the raw HU values to the range 0 to 1.
+Lastly, split the dataset into train and validation subsets.
+"""
+
+# Read and process the scans.
+# Each scan is resized across height, width, and depth and rescaled.
+print("abnormal scan processing")
+abnormal_scans = np.array([process_scan(path) for path in abnormal_scan_paths])
+print("normal scan processing")
+normal_scans = np.array([process_scan(path) for path in normal_scan_paths])
+
+# For the CT scans having presence of viral pneumonia
+# assign 1, for the normal ones assign 0.
+abnormal_labels = np.array([1 for _ in range(len(abnormal_scans))])
+normal_labels = np.array([0 for _ in range(len(normal_scans))])
 
 # Split data in the ratio 70-30 for training and validation.
 x_train = np.concatenate((abnormal_scans[:70], normal_scans[:70]), axis=0)
 y_train = np.concatenate((abnormal_labels[:70], normal_labels[:70]), axis=0)
 x_val = np.concatenate((abnormal_scans[70:], normal_scans[70:]), axis=0)
 y_val = np.concatenate((abnormal_labels[70:], normal_labels[70:]), axis=0)
-print("Number of samples in train and validation are %d and %d." % (x_train.shape[0], x_val.shape[0]))
-print(len(x_train), len(x_val), len(y_train), len(y_val))
+print(
+    "Number of samples in train and validation are %d and %d."
+#     % (x_train.shape[0], x_val.shape[0])
+)
 
 """## Data augmentation
 
@@ -191,7 +223,6 @@ checkpoint_cb = keras.callbacks.ModelCheckpoint(
     "3d_image_classification.tf", save_best_only=True
 )
 early_stopping_cb = keras.callbacks.EarlyStopping(monitor="val_acc", patience=15)
-tensorboard_callback = keras.callbacks.TensorBoard(log_dir="./logs")
 
 # Train the model, doing validation at the end of each epoch
 epochs = 10
@@ -201,6 +232,6 @@ model.fit(
     epochs=epochs,
     shuffle=True,
     verbose=2,
-    callbacks=[checkpoint_cb, early_stopping_cb, tensorboard_callback],
+    callbacks=[checkpoint_cb, early_stopping_cb],
 )
 model.save("3dconv_doc_lidc.keras")
