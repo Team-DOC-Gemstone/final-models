@@ -223,6 +223,7 @@ checkpoint_cb = keras.callbacks.ModelCheckpoint(
     "3d_image_classification.tf", save_best_only=True
 )
 early_stopping_cb = keras.callbacks.EarlyStopping(monitor="val_acc", patience=15)
+tensorboard_callback = keras.callbacks.TensorBoard(log_dir="./logs")
 
 # Train the model, doing validation at the end of each epoch
 epochs = 10
@@ -232,6 +233,6 @@ model.fit(
     epochs=epochs,
     shuffle=True,
     verbose=2,
-    callbacks=[checkpoint_cb, early_stopping_cb],
+    callbacks=[checkpoint_cb, early_stopping_cb, tensorboard_callback],
 )
 model.save("3dconv_doc_lidc.keras")
